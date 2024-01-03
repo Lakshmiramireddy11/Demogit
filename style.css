@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 45px;
+    width: 32px;
+    padding: 10px 0;
+    top: 20px;
+    
+}
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.container{
+    display: flex;
+    margin:0 40px;
+    justify-content: space-between;
+    background-color:plum;
+    height: 50px;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    margin:10px 0;
+    font-size: larger;
+li:hover{
+    cursor: pointer;
+    color: blue;
+}
+}
+li{
+    margin-inline: 30px;
+}
+.img{
+    height: 250px;
+    width: 470px;
+    border-radius: 50px;
+
+}
+.section{
+    display: flex;
+    margin: 300px 40px;
+    justify-content: space-between;
+    color:black;
+}
+.box{
+    display: flex;
+    margin:0 40px ;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    color:black;
+
+}
+.image{
+    height: 250px;
+    width: 365px;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color:black;
+    margin:40px 0;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    height: 40px;
+    width: 40px;
+    box-shadow: 1px 4px 4px 4px black;
+    border-radius: 50px;
+    line-height: 45px;
+    right: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    
+}
+a:hover{
+    cursor: pointer;
+    color:blue;
+}
+.end{
+    height: 50px;
+    background-color: plum;
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+footer{ 
+    display: flex;
+    justify-content: space-between;
+    gap:60px;
+    justify-content: space-around;
+    margin:20px 0;
+}
+.footerlinks a{
+    display: flex;
+    box-shadow: none;
+    display: inline;
+    background-color:plum;
+    margin-inline: 20px;
+    margin-bottom: 20px;
+}
+H1{
+    font-size: xx-large;
+}
+
+
+
+
