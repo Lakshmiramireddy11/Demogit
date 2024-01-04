@@ -1,126 +1,115 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
-.logo{
-    height: 45px;
-    width: 32px;
-    padding: 10px 0;
-    top: 20px;
-    
+body{
+    background-color: black;
+    color: white;
+    font-style: "poppins";
 }
 nav{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
-.container{
-    display: flex;
-    margin:0 40px;
-    justify-content: space-between;
-    background-color:plum;
-    height: 50px;
-}
-.navbar{
-    display: flex;
-    list-style: none;
-    margin:10px 0;
-    font-size: larger;
 li:hover{
     cursor: pointer;
-    color: blue;
+    color: purple;
 }
-}
-li{
-    margin-inline: 30px;
-}
-.img{
-    height: 250px;
-    width: 470px;
-    border-radius: 50px;
-
-}
-.section{
+.container{
+    margin-inline: 40px;
     display: flex;
-    margin: 300px 40px;
     justify-content: space-between;
-    color:black;
-}
-.box{
-    display: flex;
-    margin:0 40px ;
-    justify-content: space-between;
-    align-items: center;
     position: sticky;
     top: 0;
-    color:black;
-
 }
-.image{
-    height: 250px;
-    width: 365px;
-
+.logo img{
+    margin-block: 30px;
+    height: 55px;
+    width: 45px;
 }
-.text{
+.navlinks ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    color:black;
-    margin:40px 0;
+    list-style: none;
+    gap: 30px;
+    margin-block: 5px;
+    font-size: larger;
 }
-.links{
+.mainbox{
+    margin-inline: 40px;
+    margin-block: 10rem;
+}
+.home1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+}
+.img1 img{
+    height: 255px;
+    width: 320px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
-a{
-    height: 40px;
-    width: 40px;
-    box-shadow: 1px 4px 4px 4px black;
-    border-radius: 50px;
-    line-height: 45px;
-    right: 5px;
-    background-color: white;
+.home2{
     display: flex;
+    margin-block: 15rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.img2 img{
+    height: 250px;
+    width: 350px;
+}
+.intro2{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: space-evenly;
+    text-align:center;
+    display: inline;
+}
+.social{
+    display: flex;
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.social-links a li {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin-bottom: 20px;
-    
 }
-a:hover{
-    cursor: pointer;
-    color:blue;
+li{  
+    list-style: none;
+    text-align: center;
+    margin-block:40px ;
+    text-decoration: none;
+
 }
-.end{
-    height: 50px;
-    background-color: plum;
-    margin: 20px 40px;
+a{
+    text-decoration:none ;
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.end {
+    display:flex
+    justify-content:space-evenly;
+}
+ .end .footer-links{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }
-footer{ 
-    display: flex;
-    justify-content: space-between;
-    gap:60px;
-    justify-content: space-around;
-    margin:20px 0;
-}
-.footerlinks a{
-    display: flex;
-    box-shadow: none;
-    display: inline;
-    background-color:plum;
-    margin-inline: 20px;
-    margin-bottom: 20px;
-}
-H1{
-    font-size: xx-large;
-}
-
-
-
-
